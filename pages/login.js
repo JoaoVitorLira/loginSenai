@@ -33,7 +33,7 @@ export default function Login() {
                 onPress={() => navigation.navigate('index')}
                 style={styles.button}>
                 <Text style={styles.buttonText}>
-                    OK
+                    Ok!
                 </Text>
             </TouchableOpacity>
         </Animatable.View>

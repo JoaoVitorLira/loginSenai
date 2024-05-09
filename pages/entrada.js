@@ -29,7 +29,7 @@ export default function Acesso() {
       if (savedUsername === username && savedPassword === password) {
         navigation.navigate('login')
       } else {
-        console.warn('dados invalidos');
+        console.warn('Dados incorretos');
       }
     } catch (error) {
       console.error('Error logging in:', error);
@@ -51,7 +51,7 @@ export default function Acesso() {
               E-mail
             </Text>
             <TextInput on
-              placeholder='Digite um email...'
+              placeholder='Seu email'
               style={styles.input}
               onChangeText={setUsername}
             />

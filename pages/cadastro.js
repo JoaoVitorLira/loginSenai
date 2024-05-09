@@ -57,7 +57,7 @@ export default function Cadastro(){
                 Digite sua senha:
               </Text>
               <TextInput
-                placeholder='Sua senha'
+                placeholder='Insira uma senha'
                 style={styles.input}
                 onChangeText={setPassword}
               />
